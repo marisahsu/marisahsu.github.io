@@ -671,6 +671,10 @@ a {
 }
 
 .box-shadow.small {
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
   box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -1095,6 +1099,7 @@ a {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
+  text-align: center;
 }
 
 .cs-illustrations {
@@ -1191,7 +1196,7 @@ a {
   text-align: left;
 }
 
-.grid {
+.cs-grid {
   margin-right: 0px;
   margin-left: 0px;
   -webkit-box-pack: center;
@@ -1245,8 +1250,10 @@ a {
 }
 
 .airtable {
-  margin-top: 24px;
-  margin-bottom: 32px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 24px;
+  padding-bottom: 32px;
 }
 
 .cs-old {
@@ -1279,6 +1286,7 @@ a {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
+  text-align: center;
 }
 
 .option-a {
@@ -1286,7 +1294,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 24px;
+  margin-top: 0px;
+  padding-top: 24px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1301,6 +1310,7 @@ a {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
+  text-align: center;
 }
 
 .option-b {
@@ -1308,7 +1318,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 24px;
+  margin-top: 0px;
+  padding-top: 24px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1323,6 +1334,7 @@ a {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
+  text-align: center;
 }
 
 html.w-mod-js *[data-ix="fade-down"] {
@@ -1649,7 +1661,7 @@ html.w-mod-js *[data-ix="scroll"] {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  .grid {
+  .cs-grid {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
   }
@@ -2040,7 +2052,8 @@ html.w-mod-js *[data-ix="scroll"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 32px;
+    margin-top: 0px;
+    padding-top: 32px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -2062,7 +2075,8 @@ html.w-mod-js *[data-ix="scroll"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 32px;
+    margin-top: 0px;
+    padding-top: 32px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -2414,7 +2428,7 @@ html.w-mod-js *[data-ix="scroll"] {
     font-size: 12px;
     line-height: 16px;
   }
-  .grid {
+  .cs-grid {
     display: -ms-grid;
     display: grid;
     -webkit-box-orient: vertical;
@@ -2454,7 +2468,7 @@ html.w-mod-js *[data-ix="scroll"] {
     flex-direction: column;
   }
   .option-b {
-    margin-top: 32px;
+    margin-top: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
