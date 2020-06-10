@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Jun 08 2020 04:07:43 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Jun 10 2020 01:52:20 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5cb3a950dfaff563573a85f0" data-wf-site="59e449264221ad0001bf410a">
 <head>
   <meta charset="utf-8">
@@ -45,12 +45,12 @@
   </div><img src="images/cs-v2.png" alt="3 screenshots of the redesigned web app displayed in phones " srcset="images/cs-v2-p-500.png 500w, images/cs-v2-p-800.png 800w, images/cs-v2-p-1080.png 1080w, images/cs-v2-p-1600.png 1600w, images/cs-v2-p-2000.png 2000w, images/cs-v2-p-2600.png 2600w, images/cs-v2.png 3200w" sizes="(max-width: 3200px) 100vw, 3200px">
   <div class="section-default w-container">
     <div class="w-row">
-      <div class="w-col w-col-1"></div>
-      <div class="w-col w-col-10">
+      <div class="w-col w-col-1 w-col-stack"></div>
+      <div class="w-col w-col-10 w-col-stack">
         <h2 class="h2">The current state</h2>
         <p class="paragraph">Credit Sesame allows users to check their credit score, and provides tips on how they can improve their score.  <br><br>Unfortunately, Credit Sesame’s existing web app causes a lot of pain to users. They are often frustrated that the app focuses too much on selling credit cards, which leads to mistrust. Moreover, product teams have primarily optimized only the overview page to generate more revenue because the data shows low engagement on other pages. <br><br>While the existing web app meets the business needs, it overlooks the user needs.<br></p>
       </div>
-      <div class="w-col w-col-1"></div>
+      <div class="w-col w-col-1 w-col-stack"></div>
     </div>
   </div>
   <div class="cs-old"><img src="images/cs-old.png" width="1440" alt="screenshots of the existing web app on desktop and phone" srcset="images/cs-old-p-500.png 500w, images/cs-old-p-800.png 800w, images/cs-old-p-1080.png 1080w, images/cs-old-p-1600.png 1600w, images/cs-old-p-2000.png 2000w, images/cs-old-p-2600.png 2600w, images/cs-old.png 2880w" sizes="100vw"></div>
@@ -102,10 +102,10 @@
         </div>
         <div class="w-col w-col-1 w-col-stack"></div>
       </div>
-    </div><img src="images/cs-wireframes.png" alt="a screenshot of mobile web hamburger menu expanded and tab menu" srcset="images/cs-wireframes-p-500.png 500w, images/cs-wireframes-p-800.png 800w, images/cs-wireframes-p-1080.png 1080w, images/cs-wireframes-p-1600.png 1600w, images/cs-wireframes-p-2000.png 2000w, images/cs-wireframes-p-2600.png 2600w, images/cs-wireframes.png 2880w" sizes="(max-width: 2880px) 100vw, 2880px">
+    </div><img src="images/cs-wireframes.png" alt="a screenshot of mobile web hamburger menu expanded and tab menu" srcset="images/cs-wireframes-p-500.png 500w, images/cs-wireframes-p-800.png 800w, images/cs-wireframes-p-1080.png 1080w, images/cs-wireframes-p-1600.png 1600w, images/cs-wireframes-p-2000.png 2000w, images/cs-wireframes-p-2600.png 2600w, images/cs-wireframes.png 2880w" sizes="100vw">
     <div class="w-container">
       <div class="div-56"></div>
-      <h3 class="h3">Balancing user and business needs</h3>
+      <h3 class="h3 nocol">Balancing user and business needs</h3>
       <div class="w-row">
         <div class="w-col w-col-6 w-col-stack">
           <p class="paragraph">Based on our learnings, we settled on a tab navigation and having credit factors on the overview page to reduce the number of clicks for the user. Laying out the information on Overview immediately addresses the questions: “What is my credit score?” and “What’s impacting my score?”<br></p>
@@ -123,12 +123,12 @@
         </div>
       </div>
       <div class="w-row">
-        <div class="w-col w-col-1"></div>
-        <div class="w-col w-col-10">
+        <div class="w-col w-col-1 w-col-stack"></div>
+        <div class="w-col w-col-10 w-col-stack">
           <div class="div-32"></div>
           <p class="paragraph">We sought Angela’s help to run a usability test on two explorations—option A: Overview with multiple actions and option B: Overview with one action displaying offers. Based on the test results, we went with option A because it caused less confusion than option B. Option A also piqued the participants’ curiosity, and we saw users clicking on each action to learn more.<br></p>
         </div>
-        <div class="w-col w-col-1"></div>
+        <div class="w-col w-col-1 w-col-stack"></div>
       </div>
       <div class="w-row">
         <div class="option-a w-col w-col-6 w-col-small-6"><img src="images/option-a.gif" alt="option A: Overview with multiple actions" class="box-shadow small">
@@ -143,8 +143,8 @@
   <div class="section-default">
     <div class="w-container">
       <div class="w-row">
-        <div class="w-col w-col-1"></div>
-        <div class="w-col w-col-10">
+        <div class="w-col w-col-1 w-col-stack"></div>
+        <div class="w-col w-col-10 w-col-stack">
           <h2 class="h2">Challenges</h2>
           <p class="paragraph">Now I wish I could say that we followed this framework for all the features scoped for MVP, but unfortunately we were met with many hurdles.<br></p>
           <div class="div-32"></div>
@@ -154,31 +154,32 @@
           <h5 class="h5">Lack of resources</h5>
           <p class="paragraph">We requested hiring a contract illustrator to assist us in creating an illustration system that aligns with the rebrand, but this never came to fruition. Josephina ended up assuming the role after I facilitated conversations in defining our illustration style. I also helped illustrate as well. </p>
         </div>
-        <div class="w-col w-col-1"></div>
+        <div class="w-col w-col-1 w-col-stack"></div>
       </div>
     </div><img src="images/cs-membershipillustration.png" alt="a screenshot of Membership illustration" width="1440" srcset="images/cs-membershipillustration-p-500.png 500w, images/cs-membershipillustration-p-800.png 800w, images/cs-membershipillustration-p-1080.png 1080w, images/cs-membershipillustration-p-1600.png 1600w, images/cs-membershipillustration-p-2000.png 2000w, images/cs-membershipillustration-p-2600.png 2600w, images/cs-membershipillustration.png 2880w" sizes="100vw">
+    <div class="div-32"></div>
     <div class="w-container">
       <div class="w-row">
-        <div class="w-col w-col-1"></div>
-        <div class="w-col w-col-10">
+        <div class="w-col w-col-1 w-col-stack"></div>
+        <div class="w-col w-col-10 w-col-stack">
           <h5 class="h5">Time constraints</h5>
           <p class="paragraph">Josephina and I were working in 1-week sprint cadences, and development often caught up with product and design. The demand to churn out mocks prevented us from evaluating and testing a lot of our design decisions (we requested Angela to come to our team full-time but to no avail). We acknowledged our shortcomings, and created a list of features and pages we wanted to revisit post-MVP launch.</p>
         </div>
-        <div class="w-col w-col-1"></div>
+        <div class="w-col w-col-1 w-col-stack"></div>
       </div>
       <div class="airtable w-embed w-iframe"><iframe class="airtable-embed" src="https://airtable.com/embed/shrvYso9AOUGkjGRC?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="640" style="background: transparent; border: 1px solid #ccc;"></iframe></div>
       <div class="w-row">
-        <div class="w-col w-col-1"></div>
-        <div class="w-col w-col-10">
+        <div class="w-col w-col-1 w-col-stack"></div>
+        <div class="w-col w-col-10 w-col-stack">
           <p class="paragraph">The lack of time also prevented us from clearly outlining the expected interactions in our initial design-engineering handoffs. I created a prototype using Figma and mapped out the entire MVP user flow to help engineering and QA understand at a high level the redesigned experience.</p><a href="https://www.figma.com/proto/jieXOsyLIt1K6m8J56qaxe/prototype_Figma?node-id=0%3A4727&amp;viewport=540%2C77%2C0.04557017982006073&amp;scaling=scale-down" target="_blank" class="button w-button">Interact with Prototype</a></div>
-        <div class="w-col w-col-1"></div>
+        <div class="w-col w-col-1 w-col-stack"></div>
       </div>
     </div>
-  </div><img src="images/cs-userflows.png" alt="a screenshot of Credit Sesame 2.0&#x27;s user flow on Miro" srcset="images/cs-userflows-p-500.png 500w, images/cs-userflows-p-800.png 800w, images/cs-userflows-p-1080.png 1080w, images/cs-userflows-p-1600.png 1600w, images/cs-userflows-p-2000.png 2000w, images/cs-userflows.png 2560w" sizes="(max-width: 2560px) 100vw, 2560px">
+  </div><img src="images/cs-userflows.png" alt="a screenshot of Credit Sesame 2.0&#x27;s user flow on Miro" srcset="images/cs-userflows-p-500.png 500w, images/cs-userflows-p-800.png 800w, images/cs-userflows-p-1080.png 1080w, images/cs-userflows-p-1600.png 1600w, images/cs-userflows-p-2000.png 2000w, images/cs-userflows.png 2560w" sizes="100vw">
   <div class="section-default w-container">
     <div class="w-row">
-      <div class="w-col w-col-1"></div>
-      <div class="w-col w-col-10">
+      <div class="w-col w-col-1 w-col-stack"></div>
+      <div class="w-col w-col-10 w-col-stack">
         <h2 class="h2">Results</h2>
         <p class="paragraph">After 4 and a half months, we shipped Credit Sesame 2.0 MVP in mid November 2019. We received positive feedback from our users, saying that the experience is intuitive, simple, and feels personalized. Comparing the redesign with the existing web app, we saw an increase:<br></p>
         <div class="div-32"></div>
@@ -197,23 +198,23 @@
           </div>
         </div>
       </div>
-      <div class="w-col w-col-1"></div>
+      <div class="w-col w-col-1 w-col-stack"></div>
     </div>
   </div>
-  <div class="w-layout-grid cs-grid"><img src="images/cs-home.png" alt="Redesigned Overview page on desktop" srcset="images/cs-home-p-500.png 500w, images/cs-home-p-800.png 800w, images/cs-home-p-1080.png 1080w, images/cs-home-p-1600.png 1600w, images/cs-home-p-2000.png 2000w, images/cs-home-p-2600.png 2600w, images/cs-home.png 2880w" sizes="(max-width: 2880px) 100vw, 2880px" id="w-node-9059240e7f4b-573a85f0" class="box-shadow small"><img src="images/cs-actions.png" alt="My Actions page on phone" srcset="images/cs-actions-p-500.png 500w, images/cs-actions-p-800.png 800w, images/cs-actions-p-1080.png 1080w, images/cs-actions-p-1600.png 1600w, images/cs-actions-p-2000.png 2000w, images/cs-actions-p-2600.png 2600w, images/cs-actions.png 2700w" sizes="(max-width: 2700px) 100vw, 2700px" id="w-node-8fe932542b53-573a85f0"><img src="images/cs-marketplace.png" alt="Marketplace pages on phone" srcset="images/cs-marketplace-p-500.png 500w, images/cs-marketplace-p-800.png 800w, images/cs-marketplace-p-1080.png 1080w, images/cs-marketplace-p-1600.png 1600w, images/cs-marketplace-p-2000.png 2000w, images/cs-marketplace-p-2600.png 2600w, images/cs-marketplace.png 2700w" sizes="(max-width: 2700px) 100vw, 2700px" id="w-node-571c12960ad5-573a85f0"><img src="images/cs-actions-desktop.png" alt="My Actions page on desktop" width="1200" srcset="images/cs-actions-desktop-p-500.png 500w, images/cs-actions-desktop-p-800.png 800w, images/cs-actions-desktop-p-1080.png 1080w, images/cs-actions-desktop-p-1600.png 1600w, images/cs-actions-desktop-p-2000.png 2000w, images/cs-actions-desktop-p-2600.png 2600w, images/cs-actions-desktop.png 2880w" sizes="100vw" id="w-node-698fdb925f04-573a85f0" class="box-shadow small"><img src="images/cs-factors.png" alt="Redesigned Credit Factor pages in mobile web" srcset="images/cs-factors-p-500.png 500w, images/cs-factors-p-800.png 800w, images/cs-factors-p-1080.png 1080w, images/cs-factors-p-1600.png 1600w, images/cs-factors-p-2000.png 2000w, images/cs-factors-p-2600.png 2600w, images/cs-factors-p-3200.png 3200w, images/cs-factors.png 3456w" sizes="(max-width: 3456px) 100vw, 3456px" id="w-node-b8441ae80123-573a85f0"></div>
+  <div class="w-layout-grid cs-grid"><img src="images/cs-home.png" alt="Redesigned Overview page on desktop" srcset="images/cs-home-p-500.png 500w, images/cs-home-p-800.png 800w, images/cs-home-p-1080.png 1080w, images/cs-home-p-1600.png 1600w, images/cs-home-p-2000.png 2000w, images/cs-home-p-2600.png 2600w, images/cs-home.png 2880w" sizes="100vw" id="w-node-9059240e7f4b-573a85f0" class="box-shadow small"><img src="images/cs-actions.png" alt="My Actions page on phone" srcset="images/cs-actions-p-500.png 500w, images/cs-actions-p-800.png 800w, images/cs-actions-p-1080.png 1080w, images/cs-actions-p-1600.png 1600w, images/cs-actions-p-2000.png 2000w, images/cs-actions-p-2600.png 2600w, images/cs-actions.png 2700w" sizes="100vw" id="w-node-8fe932542b53-573a85f0"><img src="images/cs-marketplace.png" alt="Marketplace pages on phone" srcset="images/cs-marketplace-p-500.png 500w, images/cs-marketplace-p-800.png 800w, images/cs-marketplace-p-1080.png 1080w, images/cs-marketplace-p-1600.png 1600w, images/cs-marketplace-p-2000.png 2000w, images/cs-marketplace-p-2600.png 2600w, images/cs-marketplace.png 2700w" sizes="100vw" id="w-node-571c12960ad5-573a85f0"><img src="images/cs-actions-desktop.png" alt="My Actions page on desktop" width="1200" srcset="images/cs-actions-desktop.png 500w, images/cs-actions-desktop.png 800w, images/cs-actions-desktop.png 1080w, images/cs-actions-desktop.png 1600w, images/cs-actions-desktop.png 2000w, images/cs-actions-desktop.png 2600w, images/cs-actions-desktop.png 2880w" sizes="100vw" id="w-node-698fdb925f04-573a85f0" class="box-shadow small"><img src="images/cs-factors.png" alt="Redesigned Credit Factor pages in mobile web" srcset="images/cs-factors-p-500.png 500w, images/cs-factors-p-800.png 800w, images/cs-factors-p-1080.png 1080w, images/cs-factors-p-1600.png 1600w, images/cs-factors-p-2000.png 2000w, images/cs-factors-p-2600.png 2600w, images/cs-factors-p-3200.png 3200w, images/cs-factors.png 3456w" sizes="100vw" id="w-node-b8441ae80123-573a85f0"></div>
   <div class="section-default">
     <div class="w-container">
       <div class="w-row">
-        <div class="w-col w-col-1"></div>
-        <div class="w-col w-col-10">
+        <div class="w-col w-col-1 w-col-stack"></div>
+        <div class="w-col w-col-10 w-col-stack">
           <h2 class="h2">Takeaways</h2>
           <p class="paragraph">Throughout this project, I learned there is a delicate balance between business and user needs. As a product designer, I need to acknowledge the business needs, otherwise it’s a constant battle to get buy-in from leadership. <br></p>
         </div>
-        <div class="w-col w-col-1"></div>
+        <div class="w-col w-col-1 w-col-stack"></div>
       </div>
       <div class="w-row">
-        <div class="w-col w-col-1"></div>
-        <div class="w-col w-col-10">
+        <div class="w-col w-col-1 w-col-stack"></div>
+        <div class="w-col w-col-10 w-col-stack">
           <div class="div-56"></div>
           <h2 class="h2">Next Steps</h2>
           <ul role="list" class="list">
@@ -222,7 +223,7 @@
             <li class="list-item">Adding personalization to better help our users improve their credit score</li>
           </ul>
         </div>
-        <div class="w-col w-col-1"></div>
+        <div class="w-col w-col-1 w-col-stack"></div>
       </div>
     </div>
   </div>

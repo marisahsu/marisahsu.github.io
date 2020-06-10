@@ -1672,7 +1672,8 @@ html.w-mod-js *[data-ix="scroll"] {
 
 @media screen and (max-width: 767px) {
   .h1 {
-    margin-left: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
     font-size: 2.8em;
   }
   .h1.white {
@@ -1680,14 +1681,18 @@ html.w-mod-js *[data-ix="scroll"] {
     line-height: 1.25em;
   }
   .h3 {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
     font-size: 1.375em;
     line-height: 1.364em;
     letter-spacing: 0px;
   }
   .h3.white {
     letter-spacing: 0px;
+  }
+  .h3.nocol {
+    margin-right: 16px;
+    margin-left: 16px;
   }
   .footer {
     position: static;
@@ -1710,26 +1715,34 @@ html.w-mod-js *[data-ix="scroll"] {
     align-items: flex-end;
   }
   .h2 {
-    margin-right: 10px;
+    margin-right: 6px;
     margin-bottom: 12px;
-    margin-left: 10px;
+    margin-left: 6px;
     padding-left: 0px;
     font-size: 2em;
     line-height: 1.3em;
     font-weight: 600;
   }
+  .h2.nocol {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
   .paragraph {
     width: auto;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
     color: #212b36;
+  }
+  .paragraph.no-col {
+    margin-right: 16px;
+    margin-left: 16px;
   }
   .div-32 {
     margin: 0px;
   }
   .h4 {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
     color: #454f5b;
     font-size: 1.375em;
     font-weight: 300;
@@ -1747,26 +1760,26 @@ html.w-mod-js *[data-ix="scroll"] {
     line-height: 1.5em;
   }
   .h5 {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
     font-size: 1em;
     font-weight: 600;
   }
   .button {
     margin-bottom: 30px;
-    margin-left: 10px;
+    margin-left: 6px;
   }
   .h6 {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
     line-height: 1.5em;
   }
   .logo {
-    margin-left: 10px;
+    margin-left: 0px;
   }
   .stats {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
   }
   .navbar {
     padding-top: 24px;
@@ -1779,7 +1792,7 @@ html.w-mod-js *[data-ix="scroll"] {
     line-height: 2em;
   }
   .nav-menu {
-    margin-right: 20px;
+    margin-right: 16px;
     background-color: transparent;
   }
   .arrow {
@@ -1798,8 +1811,8 @@ html.w-mod-js *[data-ix="scroll"] {
     line-height: 1.6em;
   }
   .caption.inverse {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
     font-size: 0.75em;
   }
   .caption.bjn {
@@ -1847,13 +1860,19 @@ html.w-mod-js *[data-ix="scroll"] {
     height: 180px;
   }
   .social-links {
+    margin-right: 6px;
+    margin-left: 6px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
   .call-to-action {
     margin-top: 12px;
-    margin-left: 10px;
+    margin-left: 6px;
     font-size: 1em;
+  }
+  .project-image {
+    padding-right: 16px;
+    padding-left: 16px;
   }
   .project-info {
     width: 100%;
@@ -1864,8 +1883,8 @@ html.w-mod-js *[data-ix="scroll"] {
   }
   .side-projects {
     margin-top: 60px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
   .intro {
     margin-top: 60px;
@@ -1887,8 +1906,16 @@ html.w-mod-js *[data-ix="scroll"] {
     padding-bottom: 28px;
   }
   .list {
+    margin-right: 6px;
+    padding-left: 40px;
     font-size: 1em;
     line-height: 1.4em;
+  }
+  .brand {
+    padding-left: 16px;
+  }
+  .brand.w--current {
+    padding-left: 16px;
   }
   .rule-builder {
     -webkit-box-orient: vertical;
@@ -1979,8 +2006,8 @@ html.w-mod-js *[data-ix="scroll"] {
     justify-content: center;
   }
   .blockquote {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 6px;
+    margin-left: 6px;
     padding-right: 10px;
     padding-left: 10px;
     border-left-width: 5px;
@@ -2011,7 +2038,7 @@ html.w-mod-js *[data-ix="scroll"] {
     align-self: auto;
   }
   .footer-content {
-    padding-right: 20px;
+    padding-right: 10px;
     padding-left: 10px;
   }
   .margin {
@@ -2102,6 +2129,7 @@ html.w-mod-js *[data-ix="scroll"] {
     line-height: 1.25em;
   }
   .h1.white {
+    margin-right: 6px;
     font-size: 2.8em;
     line-height: 1.25em;
   }
@@ -2188,7 +2216,7 @@ html.w-mod-js *[data-ix="scroll"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 20px;
+    margin-right: 10px;
     padding-right: 0px;
     padding-left: 0px;
     clear: none;
@@ -2296,7 +2324,7 @@ html.w-mod-js *[data-ix="scroll"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 0px;
+    margin-right: 6px;
     padding-right: 0px;
     padding-left: 0px;
     -webkit-flex-wrap: wrap;
@@ -2694,6 +2722,16 @@ html.w-mod-js *[data-ix="scroll"] {
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-6a225cdb1439-463a85e1 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
   #w-node-0892604b3a42-763a85ee {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
